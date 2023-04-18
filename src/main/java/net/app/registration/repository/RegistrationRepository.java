@@ -6,5 +6,5 @@ import net.app.registration.model.User;
 public interface RegistrationRepository extends JpaRepository<User, Integer>{
 
 		public User findByEmailId(String email);
-		public User finByEmailIdAndPassword(String email, String Password);
+		public User findByEmailIdAndPassword(String email, String password);
 	}

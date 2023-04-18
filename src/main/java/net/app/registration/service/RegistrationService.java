@@ -18,6 +18,6 @@ public class RegistrationService {
 		return repo.findByEmailId(email);
 	}
 	public User fetchUserByEmailIdAndPassword(String email, String password) {
-		return repo.finByEmailIdAndPassword(email, password);
+		return repo.findByEmailIdAndPassword(email, password);
 	}
 }
